@@ -32,7 +32,7 @@ IpFilter initFilter(bool& isSuc)
     return filt;
 }
 
-// сортировка в обратном лексикографическом порядке
+// СЃРѕСЂС‚РёСЂРѕРІРєР° РІ РѕР±СЂР°С‚РЅРѕРј Р»РµРєСЃРёРєРѕРіСЂР°С„РёС‡РµСЃРєРѕРј РїРѕСЂСЏРґРєРµ
 BOOST_AUTO_TEST_CASE(test1)
 {
     unit_test_log.set_threshold_level(log_messages);
@@ -60,7 +60,7 @@ BOOST_AUTO_TEST_CASE(test1)
 }
 
 
-// фильтр по первому байту 
+// С„РёР»СЊС‚СЂ РїРѕ РїРµСЂРІРѕРјСѓ Р±Р°Р№С‚Сѓ 
 BOOST_AUTO_TEST_CASE(test2)
 {
     unit_test_log.set_threshold_level(log_messages);
@@ -86,7 +86,7 @@ BOOST_AUTO_TEST_CASE(test2)
     BOOST_CHECK(res);
 }
 
-// фильтр по первому и второму байтам
+// С„РёР»СЊС‚СЂ РїРѕ РїРµСЂРІРѕРјСѓ Рё РІС‚РѕСЂРѕРјСѓ Р±Р°Р№С‚Р°Рј
 BOOST_AUTO_TEST_CASE(test3)
 {
     unit_test_log.set_threshold_level(log_messages);
@@ -111,7 +111,7 @@ BOOST_AUTO_TEST_CASE(test3)
     BOOST_CHECK(res);
 }
 
-// фильтр - один из байт равен значению
+// С„РёР»СЊС‚СЂ - РѕРґРёРЅ РёР· Р±Р°Р№С‚ СЂР°РІРµРЅ Р·РЅР°С‡РµРЅРёСЋ
 BOOST_AUTO_TEST_CASE(test4)
 {
     unit_test_log.set_threshold_level(log_messages);
@@ -166,7 +166,7 @@ BOOST_AUTO_TEST_CASE(test4)
     BOOST_CHECK(res);
 }
 
-// общий тест на хэш
+// РѕР±С‰РёР№ С‚РµСЃС‚ РЅР° С…СЌС€
 BOOST_AUTO_TEST_CASE(test5)
 {
     unit_test_log.set_threshold_level(log_messages);
